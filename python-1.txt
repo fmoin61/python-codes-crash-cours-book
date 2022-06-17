@@ -1,0 +1,21 @@
+a = [1,2,22.2,'faisal',1+3j]
+b = []
+b.append(3)
+print(type(a[2]))
+
+
+score = {
+    "player1":{"ali":[1,2,3,4,5]},
+    "palyer2":{"fahad":[6,7,8,9,10]}  
+    
+}
+
+
+
+for keys in score.items():
+    print(score)
+
+for x,y in score.items():
+    if type(score[x])== dict:
+    	for z in score[x]:
+    		print( f" {x} : {z}  {score[x][z]}")
